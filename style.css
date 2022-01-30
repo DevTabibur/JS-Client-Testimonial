@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.max-height{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('../img/questionBcg.jpeg')center/cover no-repeat fixed;
+   }
+.content{
+    
+}
+
+.testimonial-info{
+    position: relative;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 50px;
+}
+.testimonial-img{
+    position: relative;
+}
+.testimonial-img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -98px;
+    left: 41%;
+    /* margin-top: 0px; */
+}
+.author-name{
+    font-weight: 700;
+}
+.author-rating{}
+.author-rating span{
+    color: #fff200;
+    font-size: 20px;
+}
+.author-description p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(189, 189, 189);
+}
+.author-quote span{
+    font-size: 40px;
+    color: yellow;
+}
+.buttons{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.buttons .btn{
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: .4s;
+    border: none;
+    outline: none;
+}
+.buttons .btn:hover{
+    background-color: #ff3838;
+    color: #fff200;
+    outline: none;
+    border: none;
+}
